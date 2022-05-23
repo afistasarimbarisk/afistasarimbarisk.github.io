@@ -31,7 +31,8 @@
 			}
 
 			div.logo{ 
-				float: right; margin-right: 2vw;
+				float: right;
+				margin-right: 2vw;
 
 			}
 
@@ -80,7 +81,7 @@
 
 			#tablo
 			{
-			/*  background: url(images2.jpg); */
+				/*  background: url(images2.jpg); */
 				background-repeat: no-repeat;
 				background-color: #ac1d37 ;
 				text-align: center;
@@ -109,8 +110,6 @@
 				text-align: center;
 				width: 100%;
 
-
-
 			}
 			.image-table img {
 				border: 5px solid #fff;
@@ -118,8 +117,9 @@
 				-webkit-box-shadow: 0 0 10px #999;
 				box-shadow: 0 0 30px #999;
 				padding: 3px;
-
-
+			}
+			.image-table p {
+				margin-top: 10px;
 			}
 
 			#mlogo{
@@ -180,6 +180,7 @@
 
 
 @media only screen and (max-width: 1100px) {
+
 	#tablo
 	{	
 		width: 95%;
@@ -187,35 +188,14 @@
 		border-radius: 60px;
 		border: 3px solid #ffffff;
 		margin-top: 50px;
-		background-size: 1100px 2700px;
+		background-size: 1100px;
 	}
 
-	div.logo{ 
-		
+	div.logo{ 	
 		float: left;
-
 		
 	}
 
-	img {
-		height: auto;
-		max-width: 100%;
-		position: relative; 
-		border-radius: 120px; 
-
-	}
-	.image-table {
-		border:0 solid rgba(0, 0, 0, 0);
-		text-align:justify; 
-		width: 300%;
-
-	}
-	.image-table img {
-		border: 5px solid #fff;
-		text-align:justify; 
-		width: 100%;
-		margin: 10px;
-	}
 
 	h1{
 		font-size:40px ; 
@@ -250,6 +230,37 @@
 		flex-direction: column;
 
 	}
+
+	img {
+		height: auto;
+		max-width: 350px;
+		position: relative; 
+		margin-left: 15px;
+		
+	}
+	.image-table {
+		border:0px;
+		border-spacing: 3px;
+		
+
+	}
+	.image-table img {
+		border: 5px solid #fff;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0 0 10px #999;
+		box-shadow: 0 0 30px #999;
+		padding: 3px;
+	}
+
+	.image-table p {
+		width: 350px;
+		padding: 5px;
+		margin-left: 10px;
+
+	}
+
+
+
 
 
 	#mlogo{
@@ -287,6 +298,7 @@
 		height: 1px;
 	}
 
+	
 
 }
 
@@ -297,7 +309,7 @@
 	#tablo
 	{	
 		
-		background-size: 768px 2500px;
+		background-size: 768px 1000px;
 	}
 
 
